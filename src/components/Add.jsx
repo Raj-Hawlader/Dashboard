@@ -10,7 +10,7 @@ const Add = ({ closeAdd, addItem }) => {
 
   return (
     <div className='container z-1 fixed top-0 right-0 flex items-center justify-end text-white font-semibold text-lg w-full h-full bg-black/85' onClick={(e) => { if (e.target.className.includes("container")) closeAdd(); }}>
-      <div className='rounded-[5px] p-[2rem] bg-white w-[25em]'>
+      <div className='rounded-[6px] p-[2rem] bg-white w-[25em]'>
         <form className='text-black' onSubmit={(e) => { e.preventDefault(); handleAddItem(); }}>
           <div className='flex flex-col mb-[1rem]'>
             <label htmlFor="Name">Name</label>

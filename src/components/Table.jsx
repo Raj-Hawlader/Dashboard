@@ -12,7 +12,7 @@ const Table = ({ items, onDelete }) => {
           <tr className='flex items-start justify-around gap-9 m-[1.5rem] px-[1rem]'>
             <th>Category Name</th>
             <th>Slug</th>
-            <th>Order Count</th>
+            <th>Order count</th>
             <th>Actions</th>
           </tr>
         </thead>

@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Sidebar from './components/Sidebar';
-import Table from './components/Table';
 import Add from './components/Add';
+import Table from './components/Table';
+
 
 const App = () => {
   const [btnClick, setBtnClick] = useState(false);
